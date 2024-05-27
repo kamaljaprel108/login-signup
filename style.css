@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(58, 156, 201);
+}
+.innerbox{
+    height: 70vh;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    padding: 40x 20px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    z-index: 2;
+    box-shadow: 3px 3px 5px #001d1d;
+    background-color: rgb(245, 248, 250);
+}
+header{
+    text-align: center;
+    font-size: 2.2rem;
+}
+.login{
+    font-weight: bold;
+    margin:20px opx;
+}
+.login p{
+    margin: 10px 10px;
+}
+.login p label{
+    display: block;
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+.login p input{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 7px;
+    border: none;
+    border-style: underline;
+}
+.login p input[type="submit"]{
+    width: 100%;
+    background-color: rgb(81, 110, 241);
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+
+}
+.login p input[type="submit"]:hover{
+    background-color: rgb(70, 70, 161);
+}
+.login p a{
+    display: block;
+    text-align: right;
+    color: black;
+    font-size: 1rem;
+    text-decoration: solid;
+    padding-right: 15px;
+}
+.signup p{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 25px;
+}
+.signup p a{
+    color: black;
+}
